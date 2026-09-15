@@ -35,9 +35,8 @@ jobs:
           echo Add other actions to build,
           echo test, and deploy your project.
       - name: Tool versions
-        run:
+        run: |
           pwd 
-          wsl --version
           podman --version
           uname -a
           
